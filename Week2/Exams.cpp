@@ -1,4 +1,4 @@
-// exams
+// Exams
 // Input your name and some test scores to calculate the average between the scores
 // Anthony Frederick
 // 01/29/25
