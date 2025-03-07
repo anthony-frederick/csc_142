@@ -46,7 +46,7 @@ class Inventory{
 
     // Puts all of the information for the books together into a giant line of information
     void printInventory(){
-        for (int i = 0; i < length; i++)
+        for (int i = 0; i < nextEntry; i++)
         std::cout<<books[i] <<std::endl;
 
 };

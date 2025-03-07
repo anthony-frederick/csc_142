@@ -11,7 +11,7 @@
 int main(){
 
     // Makes an inventory that has 15 spaces for books
-    Inventory Inventory(11);
+    Inventory Inventory(15);
 
     // Adds the information for each book into the book class to be printed or changed
     Book book1 = Book("013478796X", "Tony Gaddis", "Starting Out With Java: From Control Structures through Data Structures", 4, "PE", 121.75);
