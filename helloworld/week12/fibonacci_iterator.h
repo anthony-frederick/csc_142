@@ -1,0 +1,29 @@
+// Fibonacci_iterator
+// Functions for the fibonacci sequence files to run with
+// Anthony Frederick
+// 04/03/25
+
+#ifndef FIBONACCIITERATOR_H
+#define FIBONACCIITERATOR_H
+
+struct FibonacciIterator {
+
+	bool operator!=(int x) const {
+		return x >= current;
+	}
+
+	FibonacciIterator& operator++() {
+		const auto tmp = current;
+		current += last;
+		last = tmp;
+		return *this;
+	}
+
+	int operator*() const {
+		return current;
+	}
+
+private:
+	int current{1}, last{1} ;
+};
+#endif
