@@ -1,3 +1,8 @@
+// yodas_message
+// This code encodes a message and then decodes it using a cypher
+// Anthony Frederick
+// 04/17/25
+
 #include <iostream>
 #include <string>
 #include <cctype>
