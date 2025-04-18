@@ -1,3 +1,8 @@
+// riddlers_revenge
+// This code makes a riddle and then tells you if it is solved
+// Anthony Frederick
+// 04/17/25
+
 #include <iostream>
 #include <tuple>
 #include <string>
