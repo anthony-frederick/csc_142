@@ -1,5 +1,5 @@
 // 12_01
-// This code checks 
+// This code makes and checks if tests have passed
 // Anthony Frederick
 // 04/17/25
 
