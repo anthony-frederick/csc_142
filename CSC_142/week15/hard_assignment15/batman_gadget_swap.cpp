@@ -1,3 +1,8 @@
+// batman_gadget_swap
+// This code makes some gadgets for batman and then switches their position
+// Anthony Frederick
+// 04/17/25
+
 #include <iostream>
 #include <string>
 #include <utility>
